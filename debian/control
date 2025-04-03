@@ -1,0 +1,34 @@
+Source: rocm-rocdbgapi
+Section: devel
+Priority: optional
+Maintainer: CHEN Xuan <chenxuan@iscas.ac.cn>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ rocm-cmake,
+ rocm-comgr,
+ rocm-core-rocm,
+ rocm-env,
+ rocm-hsa,
+Standards-Version: 4.6.2
+Vcs-Git: https://github.com/r-rocm/rocm-rocdbgapi
+
+Package: rocm-rocdbgapi
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ rocm-comgr,
+ rocm-core-rocm,
+ rocm-env,
+ rocm-hsa,
+Description: rocm-rocdbgapi
+
+# Package: rocm-rocdbgapi-dev
+# Architecture: any
+# Depends:
+#  ${shlibs:Depends},
+#  ${misc:Depends},
+#  rocm-rocdbgapi,
+# Description: rocm-rocdbgapi
