@@ -8,7 +8,7 @@ export DEB_CXXFLAGS_MAINT_APPEND = $(CFLAGS_BUILDING)
 
 # TODO: No Test run. It is Dangerous
 
-PKG_NAME=rocm-llvm
+PKG_NAME=$(DEB_SOURCE)
 
 ROCM_VERSION=$(shell cat /opt/REVYOS_ROCM_VERSION)
 ROCM_PATH=/opt/rocm-$(ROCM_VERSION)
