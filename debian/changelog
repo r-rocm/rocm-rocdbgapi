@@ -1,3 +1,9 @@
+rocm-rocdbgapi (6.2.4-2) unstable; urgency=medium
+
+  * Fix blank package.
+
+ --  <chenxuan@iscas.ac.cn>  Sun, 06 Apr 2025 10:04:36 +0800
+
 rocm-rocdbgapi (6.2.4-1) unstable; urgency=medium
 
   * Initial release.
